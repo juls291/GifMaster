@@ -1,0 +1,15 @@
+﻿# Ignore Config
+appconfig.json
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+.vs/
+.idea/
+
+# Ignore other unwanted files
+*.user
+*.suo
+*.userosscache
