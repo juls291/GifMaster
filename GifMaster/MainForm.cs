@@ -68,6 +68,7 @@ namespace GifMaster
             searchDelayTimer = new System.Timers.Timer(500);
             searchDelayTimer.AutoReset = false;
             searchDelayTimer.Elapsed += SearchDelayTimer_Elapsed;
+            lblVersion.Text += VersionNo;
         }
 
         #endregion

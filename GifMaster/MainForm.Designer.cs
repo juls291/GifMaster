@@ -32,6 +32,8 @@
             tbxSearch = new TextBox();
             flpGifPanel = new FlowLayoutPanel();
             btnSettings = new Button();
+            label1 = new Label();
+            lblVersion = new Label();
             SuspendLayout();
             // 
             // tbxSearch
@@ -60,11 +62,31 @@
             btnSettings.UseVisualStyleBackColor = true;
             btnSettings.Click += btnSettings_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(435, 384);
+            label1.Name = "label1";
+            label1.Size = new Size(79, 15);
+            label1.TabIndex = 3;
+            label1.Text = "made by juha";
+            // 
+            // lblVersion
+            // 
+            lblVersion.AutoSize = true;
+            lblVersion.Location = new Point(1, 384);
+            lblVersion.Name = "lblVersion";
+            lblVersion.Size = new Size(51, 15);
+            lblVersion.TabIndex = 4;
+            lblVersion.Text = "Version: ";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(516, 400);
+            Controls.Add(lblVersion);
+            Controls.Add(label1);
             Controls.Add(btnSettings);
             Controls.Add(flpGifPanel);
             Controls.Add(tbxSearch);
@@ -80,5 +102,7 @@
         private TextBox tbxSearch;
         private FlowLayoutPanel flpGifPanel;
         private Button btnSettings;
+        private Label label1;
+        private Label lblVersion;
     }
 }
