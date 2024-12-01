@@ -12,13 +12,16 @@ GifMaster is a lightweight GIF search and management tool powered by the Tenor A
 ---
 
 ### Setup Instructions:
-1. **API Key Setup:**  
+1. **Run the App:**  
+   Launch GifMaster by running the application.
+
+2. **API Key Setup:**  
    GifMaster requires a Tenor API key to function.  
    - Create an API key at [Tenor's Developer Portal](https://developers.google.com/tenor/guides/quickstart).  
-   - Add the API key in the settings.
+   - Open the settings to add your API key.
 
-2. **Run the App:**  
-   Launch GifMaster, search for GIFs, and enjoy!
+3. **Start Using:**  
+   After adding the API key, search for GIFs and enjoy!
 
 ---
 
