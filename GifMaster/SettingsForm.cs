@@ -1,4 +1,6 @@
-﻿namespace GifMaster
+﻿using System.Diagnostics;
+
+namespace GifMaster
 {
     public partial class SettingsForm : Form
     {
@@ -19,7 +21,13 @@
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://developers.google.com/tenor/guides/quickstart");
+            var url = "https://developers.google.com/tenor/guides/quickstart";
+
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = url,
+                UseShellExecute = true
+            });
         }
 
         private void btnSave_Click(object sender, EventArgs e)
